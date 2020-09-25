@@ -32,10 +32,9 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, r
 #div1::before{
     width:100px;
     height:100px;
-    // border:1px solid red;
     top:0;
-    left;50%;
-    transform:translateX(50%);
+    left:50%;
+    transform:translateX(-50%);
     border-radius:50%;
     background:#000;
     background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
@@ -43,10 +42,9 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, r
 #div1::after{
     width:100px;
     height:100px;
-    // border:1px solid red;
     bottom:0;
-    left;50%;
-    transform:translateX(50%);
+    left:50%;
+    transform:translateX(-50%);
     border-radius:50%;
     background:#fff;
     background: radial-gradient(circle, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
